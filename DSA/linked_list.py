@@ -46,12 +46,12 @@ class LinkedList:
         """
         new_node = Node(data)
         new_node.next_node = self.head #first we assign the reference to the head
-        self.head = new_node           #afterwards we ake the new node be the head of the lst
+        self.head = new_node           #afterwards we take the new node be the head of the lst
 
     def search(self, key):
         """
-        Search for the first node containing data that matches the key
-        Return the node or 'None' if not found
+        Searches for the first node containing data that matches the key
+        Returns the node or 'None' if not found
         Takes O(n) time
         """
         current = self.head
